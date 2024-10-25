@@ -1,0 +1,36 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+span{
+  color: blueviolet;
+}
+.rectangel{
+  width: 100px;
+  height: 10px;
+  position: absolute;
+  bottom: 8px;
+  left: 25%;
+}
+   .about-section {
+      background-color: #f2e8fb;
+      padding: 50px;
+    }
+    .about-section h2 {
+      font-weight: bold;
+    }
+    .about-section p {
+      color: #5c5c5c;
+    }
+    .btn-custom {
+      background-color: #ff793f;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    .btn-custom:hover {
+      background-color: #ff5733;
+    }
