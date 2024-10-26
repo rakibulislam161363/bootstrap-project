@@ -13,24 +13,37 @@
 </head>
 
 <body>
-  <!-- navber disine -->
-  <nav class="navbar navbar-light bg-white navbar-expand-lg">
-    <div class="container mx-auto align-items-center justify-content-between">
-      <img class="w-25 h-25" src="./image/logoKiekeFotografie-e1460817748238 1@3x.png" alt="">
-      <div class="d-flex align-items-center gap-3">
-        <ul class="navbar-nav d-none d-md-flex gap-3 justify-content-end align-items-end mx-auto mx-0">
-          <li class="nav-item">Home</li>
-          <li class="nav-item">About Us</li>
-          <li class="nav-item">Portfolio</li>
-          <li class="nav-item">Prices</li>
-          <li class="nav-item">Contact Us</li>
-        </ul>
-        <button class="btn btn-danger rounded-pill">Get Started<e/button>
-      </div>
-
+<!-- navbar  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="./image/logoKiekeFotografie-e1460817748238 1@3x.png" alt="KiekeFotografie Logo" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item">
+          <a class="nav-link text-dark fw-bold active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark fw-bold" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark fw-bold" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark fw-bold" href="#">Prices</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-warning rounded-pill text-white px-4" href="#">Contact Us</a>
+        </li>
+      </ul>
     </div>
-
-  </nav>
+  </div>
+</nav>
   <!-- nav section done -->
 
   <!-- hero section -->
@@ -318,7 +331,27 @@
   </section>
   <!-- last section ses -->
 
-  
+  <footer class="bg-dark mt-5">
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class=" p-3">
+        <img class="w-md-25" style="width: 100px;" src="./image/logoKiekeFotografie-e1460817748238 2.png" alt="">
+      </div>
+      <div class="d-md-flex d-none justify-content-center align-items-center gap-md-4 p-3 mt-2">
+        <p class="text-white text-decoration-underline">Privacy Policy</p>
+        <p class="text-white text-decoration-underline">Terms & Conditions</p>
+      </div>
+      <!-- last div -->
+      <div class="d-flex align-items-center gap-3 p-3 justify-content-center">
+        <div style="width: 25px; height: 25px;" class="bg-white rounded-circle text-center"><i class="bi bi-facebook"></i></div>
+        <div style="width: 25px; height: 25px;" class="bg-white rounded-circle text-center"><i class="bi bi-instagram"></i></div>
+        <div style="width: 25px; height: 25px;" class="bg-white rounded-circle text-center"><i class="bi bi-twitter"></i></div>
+      </div>
+    </div> 
+    <div class="d-md-none d-flex justify-content-center align-items-center gap-2 p-3">
+      <p class="text-white text-decoration-underline">Privacy Policy</p>
+      <p class="text-white text-decoration-underline">Terms & Conditions</p>
+    </div>
+  </footer>
 
 
 
